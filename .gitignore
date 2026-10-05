@@ -1,0 +1,29 @@
+# Maven build target
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS and IDE files
+.DS_Store
+src/.DS_Store
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Logs and error dumps
+*.log
+startup-error.txt
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
